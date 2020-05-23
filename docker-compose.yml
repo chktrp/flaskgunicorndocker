@@ -1,0 +1,7 @@
+version: '3'
+services:
+  web:
+    container_name: my_container
+    build: server
+    ports:
+      - "31047:31047" # outside will use port 471149
